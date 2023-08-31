@@ -13,6 +13,10 @@ body {
 #quote-container{
     width: 100%;
     text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 q,p {
@@ -99,10 +103,18 @@ q,p {
     }
 }
 
-
-
 @media only screen and (min-width: 1000px){
     #output{
          margin: 2rem 10rem 0 10rem;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    #quote-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
     }
 }
